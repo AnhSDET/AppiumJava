@@ -3,15 +3,17 @@ Appium Android iOS Maven TestNG Jenkin
 
 ## How to get started with the Appium automation test
 
-I. Installtion all the dependencies - See this (TBU)
+### I. Installtion all the dependencies - See this (TBU)
 
-II. Set up the  Appium 
+### II. Set up the  Appium 
 - iOS/Android driver 
 In order to run the test on what Android or iOS, you need a specific platform driver
 
 `import io.appium.java_client.android.AndroidDriver;` 
 
 `public static IOSDriver<IOSElement> driver;`
+
+How to understand this  [IOSDriver<IOSElement> ](https://appium.github.io/java-client/io/appium/java_client/ios/IOSDriver.html)
 
 - Setting up the test server – This is where the tester provides the parameters to run the server such as the port and host. 
 
