@@ -14,6 +14,7 @@ In order to run the test on what Android or iOS, you need a specific platform dr
 `public static IOSDriver<IOSElement> driver;`
 
 How to understand this  [IOSDriver<IOSElement> ](https://appium.github.io/java-client/io/appium/java_client/ios/IOSDriver.html)
+ (Hint: <T> is a type parameters which belong to the Java Generic Concepts)
 
 - Setting up the test server – This is where the tester provides the parameters to run the server such as the port and host. 
 
